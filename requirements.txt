@@ -1,5 +1,5 @@
 ﻿langchain ==0.0.154
-python = 3.10
+python = 3.10.0
 PyPDF2 == 3.0.1
 python-dotenv==1.0.0
 streamlit==1.18.1
