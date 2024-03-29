@@ -30,7 +30,7 @@ def main():
 
 # ... other code ...
 
-    llm = OpenAI(temperature=0, api_key=os.environ.get("OPENAI_API_KEY"))
+    llm = OpenAI(temperature=0, api_key=os.environ.get("OPENAPI_API_KEY"))
     #upload a pdf file
 
     pdf = st.file_uploader("Upload PDF", type = 'pdf')
