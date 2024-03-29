@@ -26,7 +26,11 @@ with st.sidebar:
 
 def main():
     st.header("Interact with your PDF")
-    load_dotenv()
+    
+
+# ... other code ...
+
+    llm = OpenAI(temperature=0, api_key=os.environ.get("OPENAI_API_KEY"))
     #upload a pdf file
 
     pdf = st.file_uploader("Upload PDF", type = 'pdf')
